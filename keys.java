@@ -26,7 +26,7 @@ import java.util.Scanner; //importing needed utilities
 import java.util.Random;
 import java.lang.Math;
 import java.lang.String;
-public class keys {
+public class Keys {
    public static void main(String[] args) {
       String key1 = "";
       String key2 = "";

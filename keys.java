@@ -6,7 +6,7 @@ import java.lang.Math;
 import java.lang.String;
 import java.applet.Applet;
 import java.awt.Graphics;
-public class Keys extends Applet {
+class Keys {
    public static void main(String[] args) {
       String key1 = "";
       String key2 = "";

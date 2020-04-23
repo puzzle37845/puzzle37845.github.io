@@ -1,32 +1,12 @@
-// Anna George 20 July 2019
-// Intro to Java Programming
-// 20 July 2019
-//AMGStatistics.java
-//prompts user for number of each coin type and gives them total amount
 
-/*
-getDollarAmount()
-   passes number of each coin through
-   define variables for total value
-   calculate total
-   display total
-main()
-   define quarters
-   define dimes
-   define nickles
-   define pennies
-   get user input for quarters
-   get user input for dimes
-   get user input for nickles
-   get user input for pennies
-   call getDolllarAmount method
-*/
 
 import java.util.Scanner; //importing needed utilities
 import java.util.Random;
 import java.lang.Math;
 import java.lang.String;
-public class Keys {
+import java.applet.Applet;
+import java.awt.Graphics;
+public class Keys extends Applet {
    public static void main(String[] args) {
       String key1 = "";
       String key2 = "";

@@ -4,12 +4,12 @@
 <h1> Welcome!</h1>
 </head>
 
-<body
-<p>Here you will find three puzzles, finish them all to proceed....</p>
-<p>
- Key 1: 
-</p>
-<div>
+<body>
+<p> Here you will find three puzzles, finish them all to proceed. The first puzzle is below.</p>
+<div class="container2">
+    <div class="container1">
+    <h2>Key 1:</h2>
+
  
     <input type="password" id="key1attempt" name="key1attempt"/>
     <input type="submit" onclick="checkKey1();"/>
@@ -26,11 +26,50 @@
         }
     </script>
 </div>
+</div>
 
 </body>
 </html>
 
 <style>
+h1 {
+    color:purple;
+    padding: 5px 5px;
+    text-align:center; 
+    font-size: 50px;  
+}
+body {
+    background-color:palevioletred
+}
+p {
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+} .container2 {
+   text-align: center;
+} 
+ .container1 {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+   
 
+    
+} h2 {
+    text-align:center;
+    color: rgb(224, 83, 142);
+}
+input {
+    background-color: rgb(248, 134, 153);
+    position: center;
+    height:40px;
+    border-color:rgb(235, 88, 161);
+    color: white;
+} input[type=password] {
+    width:300px;
+   
 
+    
+}
 </style>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<p>
+ Key 3: 
+</p>
+<div>
+    <input type="password" id="key3attempt" name="key3attempt"/>
+    <input type="submit" onclick="checkKey3();"/>
+    
+    <script type="text/javascript">
+        function checkKey3() {
+        var key3 = "the";
+        var key3attempt = document.getElementById("key3attempt").value;
+            if (key3attempt == key3) {
+                window.location="finale.html";
+            } else {
+                alert("no");
+            }
+        }
+    </script>
+</div>
+
+</body>
+</html>
+
+<style>
+
+
+</style>

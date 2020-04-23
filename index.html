@@ -16,21 +16,16 @@
     
     <script type="text/javascript">
         function checkKey1() {
-        key1attempt = document.getElementsByName("key1attempt");
-            if (key1attempt == "the") {
-                alert("correct");
+        var key1 = "the";
+        var key1attempt = document.getElementById("key1attempt").value;
+            if (key1attempt == key1) {
+                window.location="part2.html";
             } else {
-                alert("no")
+                alert("no");
             }
         }
     </script>
 </div>
-<p>
-Key 2:
-</p>
-<p>
-Key 3:
-</p>
 
 </body>
 </html>

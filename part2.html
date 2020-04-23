@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<p>
+ Key 2: 
+</p>
+<div>
+    <input type="password" id="key2attempt" name="key2attempt"/>
+    <input type="submit" onclick="checkKey2();"/>
+    
+    <script type="text/javascript">
+        function checkKey2() {
+        var key2 = "the";
+        var key2attempt = document.getElementById("key2attempt").value;
+            if (key2attempt == key2) {
+                window.location="part3.html"
+            } else {
+                alert("no");
+            }
+        }
+    </script>
+</div>
+
+</body>
+</html>
+
+<style>
+
+
+</style>

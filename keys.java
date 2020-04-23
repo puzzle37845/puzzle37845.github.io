@@ -8,7 +8,7 @@ import java.applet.Applet;
 import java.awt.Graphics;
 public class Keys extends Applet {
    public void paint(Graphics g) {
-   g.drawString("Welcome to Java Applet", 40,20);
+   g.drawString("Welcome to Java Applet",40,20);
     //   String key1 = "";
 //       String key2 = "";
 //       String key3 = "";

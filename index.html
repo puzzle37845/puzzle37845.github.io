@@ -6,9 +6,17 @@
 
 <body>
 <p> Here you will find three puzzles, finish them all to proceed. The first puzzle is below.</p>
+<div class="container3">
+    <h3>A thousand color at dawn,</h3>
+    <h3>shining at dusk,</h3>
+    <h3>long broken rock</h3>
+    <h3>divides wild from civil</h3>
+    <h3>where the lifegiver meets open earth.</h3>
+</div>
 <div class="container2">
     <div class="container1">
     <h2>Key 1:</h2>
+   
 
  
     <input type="password" id="key1attempt" name="key1attempt"/>
@@ -16,7 +24,7 @@
     
     <script type="text/javascript">
         function checkKey1() {
-        var key1 = "the";
+        var key1 = "shore";
         var key1attempt = document.getElementById("key1attempt").value;
             if (key1attempt == key1) {
                 window.location="part2.html";
@@ -47,6 +55,8 @@ p {
     font-size: 40px;
 } .container2 {
    text-align: center;
+   margin-right: 25%;
+   margin-left: 25%;
 } 
  .container1 {
     background-color: white;
@@ -68,8 +78,12 @@ input {
     color: white;
 } input[type=password] {
     width:300px;
-   
-
-    
+} .container3 {
+    text-align: center;
+    font-size: 23px;
+    background-color: white;
+    padding:10px;
+    margin-right:30%;
+    margin-left:30%;
 }
 </style>

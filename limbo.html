@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="container2">
+<h1>Congratulations on completing all three puzzles!</h1>
+<h2>Now I'll give you an easy one...</h2>
+<h3>Whats my favorite color?</h3>
+</div>
+</head>
+<body>
+<div class="container1">
+
+    
+        <input type="password" id="finalattempt" name="finalattempt"/>
+        <input type="submit" onclick="checkKey2();"/>
+        
+        <script type="text/javascript">
+            function checkKey2() {
+            var final = "blue";
+            var haha = "green";
+            var finalattempt = document.getElementById("finalattempt").value;
+                if (finalattempt == final) {
+                    window.location="finale.html"
+                } else if (finalattempt == haha) {
+                    alert("Are you a virgin?");
+                } else {
+                    alert("no")
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>
+
+<style>
+    h1 {
+        text-align:center;
+    }
+    h2 {
+        text-align: center;
+    }
+    h3{
+        text-align:center;
+    } .container1 {
+        text-align: center;
+        background-color: rgb(245, 245, 91);
+    } .container2 {
+        background-color: rgb(245, 245, 91);
+    } head {
+        background-color: rgb(245, 245, 91);
+    } body {
+        background-color: rgb(245, 245, 91);
+    } h1 {
+        background-color: white;
+    }     input {
+    background-color: rgb(252, 236, 23);
+    position: center;
+    border-color:rgb(255, 238, 0);
+    color:black;
+    height:40px;
+} input[type=password] {
+    width:300px;
+    
+}
+</style>
